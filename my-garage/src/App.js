@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
+import CarCard from "./components/carCard";
+import CarForm from "./components/addCarForm";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1> Hello, im a react app</h1>
+        <div className="jumbotron">
+          <h1 className="card-title">Welcome to myGarage</h1>
+          <br/><br/>
+          {/* <CarCard /> */}
+          <CarForm />
+        </div>
       </div>
-    )
+    );
   }
 }
 

@@ -1,0 +1,9 @@
+.jumbotron {
+    display: flex; 
+    justify-content: center;
+}
+
+.card-title {
+    display: flex; 
+    
+}
